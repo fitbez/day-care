@@ -19,13 +19,14 @@ body {
 ul {
   margin: 0;
   padding: 0;
+  te
 }
 
 header {
   background: #ffffff;
   color: #333;
   padding-top: 30px;
-  min-height: 70px;
+  min-height: 60px;
   border-bottom: #e8491d 3px solid;
   transform: 2ms all;
 }
@@ -72,12 +73,10 @@ header .current a {
   background-color: #e1bee7;
   text-align: center;
   color: #333;
-  width: 100%vw;
-  height: 100%vh;
 }
 
 #showcase h1 {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 55px;
   margin-bottom: 10px;
 }
@@ -96,18 +95,56 @@ header .current a {
   text-align: center;
   margin-left: 140px;
   margin-right: 140px;
+  max-height: 500px;
   box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
-  z-index: 3;
+  z-index: 1;
 }
 
 #boxes .box {
   float: left;
-  width: 30%;
+  width: 33.3%;
   text-align: center;
   padding: 10ox;
   margin-top: 60px;
 }
 
+#boxes .box p {
+  font-size: 0.8rem;
+}
+
 #boxes .box img {
-  width: 90px;
+  width: 180px;
+  border-radius: 8px;
+  height: 150px;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  padding: 20px;
+  margin-top: 220px;
+  color: #ffffff;
+  background-color: #e8491d;
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.phone{
+  flex: 1;
+  text-align: center;
+  
+}
+
+.email{
+  flex: 1;
+  text-align:center;
+
+}
+
+.copy{
+ text-align: center;
+  font-size: 0.7rem;
 }
