@@ -19,7 +19,6 @@ body {
 ul {
   margin: 0;
   padding: 0;
-  te
 }
 
 header {
@@ -83,6 +82,7 @@ header .current a {
 
 #showcase p {
   font-size: 1rem;
+  color: #ffffff;
 }
 
 /* Boxes */
@@ -118,33 +118,51 @@ header .current a {
   height: 150px;
   box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
 }
+/* Social */
+.connect-1 {
+  height: 200px;
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.connect-1 h1 {
+  text-align: center;
+}
 
+.connect-1 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 40px;
+}
+
+.connect-1 ul li {
+  margin: 40px;
+  color: #333;
+}
+/* Footer */
 footer {
   padding: 20px;
   margin-top: 220px;
   color: #ffffff;
   background-color: #e8491d;
 }
-
-.connect {
+.connect-2 {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
-
-.phone{
+.phone {
   flex: 1;
   text-align: center;
-  
 }
-
-.email{
+.email {
   flex: 1;
-  text-align:center;
-
+  text-align: center;
 }
-
-.copy{
- text-align: center;
+.copy {
+  text-align: center;
   font-size: 0.7rem;
 }
