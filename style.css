@@ -180,7 +180,7 @@ header .current a {
   position: absolute;
   width: 120%;
   height: 120%;
-  background: #e1bee7;
+  background: #f05126;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
@@ -221,9 +221,16 @@ footer {
   flex: 1;
   text-align: center;
 }
+
+.phone i {
+  color: #e1bee7;
+}
 .email {
   flex: 1;
   text-align: center;
+}
+.email i {
+  color: #e1bee7;
 }
 .copy {
   text-align: center;
