@@ -82,7 +82,7 @@ header .current a {
 
 #showcase p {
   font-size: 1rem;
-  color: #ffffff;
+  color: #333;
 }
 
 /* Boxes */
@@ -95,7 +95,7 @@ header .current a {
   text-align: center;
   margin-left: 140px;
   margin-right: 140px;
-  max-height: 500px;
+  max-height: 750px;
   box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -110,18 +110,19 @@ header .current a {
 
 #boxes .box p {
   font-size: 0.8rem;
+  margin-bottom: 40px;
 }
 
 #boxes .box img {
-  width: 180px;
+  width: 280px;
+  height: 280px;
   border-radius: 8px;
-  height: 150px;
   box-shadow: 0 5px 15px -5px #00000070;
 }
 /* Social */
 .connect-1 {
   height: 200px;
-  margin-top: 400px;
+  margin-top: 600px;
   display: flex;
   flex-direction: column;
 }
@@ -235,4 +236,8 @@ footer {
 .copy {
   text-align: center;
   font-size: 0.7rem;
+}
+
+.open {
+  text-align: center;
 }
