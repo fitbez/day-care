@@ -111,6 +111,7 @@ header .current a {
 #boxes .box p {
   font-size: 0.8rem;
   margin-bottom: 40px;
+  line-height: 1.3rem;
 }
 
 #boxes .box img {
